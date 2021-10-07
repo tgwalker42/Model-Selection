@@ -1,0 +1,335 @@
+---
+title: "Model Selection"
+author: "T. G. Walker"
+date: "10/7/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(lubridate)
+library(GGally)
+library(MuMIn)
+FBITV<-read.csv ("NCDWRMacroinvertebrate.csv")
+EPT <- read.csv("EPTFamilies.csv")
+bats <- read.csv("Bat Morphometrics.csv")
+
+EPT$Site<- as.factor(EPT$Site)
+
+bats <- bats[bats$Sampling.Site.ID %in% levels(EPT$Site),]
+bats$Sampling.Site.ID <- droplevels(as.factor(bats$Sampling.Site.ID))
+
+FBTV<-data.frame(tapply(FBITV$Tolerance.Value, FBITV$Family, mean))
+
+#Assigning Family TV and matching the FBITV data frame to EPT data frame by Family
+
+EPT$Mean.Tolerance.Value<-FBTV[match(toupper(EPT$Family), rownames(FBTV)), ]
+
+#Calculating numerator of Hilsenhoff FB Tolerance Value Equation
+EPT <- EPT[!is.na(EPT$Mean.Tolerance.Value),]
+EPT$Fam.TV<- as.numeric(EPT$X..Count)*EPT$Mean.Tolerance.Value
+
+#Calculate the FBI from hilsenhoff 1988
+#FBI=family richness*Family tolerance value, summed across site / total arthropods by site###
+
+FBI<-data.frame(tapply(EPT$Fam.TV, INDEX = EPT$Site, sum)/
+                  tapply(as.numeric(EPT$X..Count), INDEX = EPT$Site, sum))
+
+
+
+#Create new data frame
+df <- data.frame(SiteID = unique(EPT$Site))
+
+
+#From line 25 moved to make order flow
+df$FBI <- FBI[match(df$SiteID, rownames(FBI)),]
+
+#Calculate Family Richness
+Insect.Family.Richness <- data.frame(tapply(EPT$Family, EPT$Site, FUN = function(x) length(x)))
+df$Insect.Family.Richness <- Insect.Family.Richness[match(df$SiteID, rownames(Insect.Family.Richness)),]
+
+#Calculate EPT Richness
+EPT.sub <- EPT[EPT$Order %in% c("Ephemeroptera", "Plecoptera", "Trichoptera"),]
+EPT.Family.Richness <- data.frame(tapply(EPT.sub$Family, EPT.sub$Site, FUN = function(x) length(x)))
+df$EPT.Family.Richness <- EPT.Family.Richness[match(df$SiteID, rownames(EPT.Family.Richness)),]
+df$EPT.Family.Richness[is.na(df$EPT.Family.Richness)] <- 0
+
+#Calculate EPT Family %
+df$EPT.Family.per <- df$EPT.Family.Richness/df$Insect.Family.Richness
+
+#Calculate total number of insects counted
+Insect.Count <- data.frame(tapply(as.numeric(EPT$X..Count), EPT$Site, FUN = sum))
+df$Insect.Count <- Insect.Count[match(df$SiteID, rownames(Insect.Count)),]
+
+#Calculate total number of EPT counted
+EPT.Count <- data.frame(tapply(as.numeric(EPT.sub$X..Count), EPT.sub$Site, FUN = sum))
+df$EPT.Count <- EPT.Count[match(df$SiteID, rownames(EPT.Count)),]
+df$EPT.Count[is.na(df$EPT.Count)] <- 0
+
+#Calculate EPT COunt %
+df$EPT.Count.per <- df$EPT.Count/df$Insect.Count
+
+#Create vector of bat richness
+Bat.Species.Richness <- data.frame(tapply(bats$Species, bats$Sampling.Site.ID, FUN = function(x) length(unique(x))))
+
+#Add values of bat richness to EPT df
+df$Bat.Species.Richness <- Bat.Species.Richness[match(df$SiteID, rownames(Bat.Species.Richness)),]
+
+#Replace NA with 0
+df$Bat.Species.Richness[is.na(df$Bat.Species.Richness)] <- 0
+
+#Count total number of individual bats
+Bat.Counts <- data.frame(tapply(bats$Species, bats$Sampling.Site.ID, FUN = function(x) length(x)))
+df$Bat.Counts <- Bat.Counts[match(df$SiteID, rownames(Bat.Counts)),]
+df$Bat.Counts[is.na(df$Bat.Counts)] <- 0
+
+#Calculate % of EPFU
+EPFU.Counts <- data.frame(tapply(bats$Species[bats$Species == "Eptesicus fuscus"], bats$Sampling.Site.ID[bats$Species == "Eptesicus fuscus"], FUN = function(x) length(x)))
+df$EPFU.per <- EPFU.Counts[match(df$SiteID, rownames(EPFU.Counts)),]
+df$EPFU.per[is.na(df$EPFU.per)] <- 0
+df$EPFU.per <- df$EPFU.per/df$Bat.Counts
+df$EPFU.per[is.na(df$EPFU.per)] <- 0
+
+#Calculate % of LABO
+LABO.Counts <- data.frame(tapply(bats$Species[bats$Species == "Lasiurus borealis"], bats$Sampling.Site.ID[bats$Species == "Lasiurus borealis"], FUN = function(x) length(x)))
+df$LABO.per <- LABO.Counts[match(df$SiteID, rownames(LABO.Counts)),]
+df$LABO.per[is.na(df$LABO.per)] <- 0
+df$LABO.per <- df$LABO.per/df$Bat.Counts
+df$LABO.per[is.na(df$LABO.per)] <- 0
+
+#Calculate % of PESU
+PESU.Counts <- data.frame(tapply(bats$Species[bats$Species == "Perimyotis subflavus"], bats$Sampling.Site.ID[bats$Species == "Perimyotis subflavus"], FUN = function(x) length(x)))
+df$PESU.per <- PESU.Counts[match(df$SiteID, rownames(PESU.Counts)),]
+df$PESU.per[is.na(df$PESU.per)] <- 0
+df$PESU.per <- df$PESU.per/df$Bat.Counts
+df$PESU.per[is.na(df$PESU.per)] <- 0
+
+#Calculate % of NYHU
+NYHU.Counts <- data.frame(tapply(bats$Species[bats$Species == "Nycticeius humeralis"], bats$Sampling.Site.ID[bats$Species == "Nycticeius humeralis"], FUN = function(x) length(x)))
+df$NYHU.per <- NYHU.Counts[match(df$SiteID, rownames(NYHU.Counts)),]
+df$NYHU.per[is.na(df$NYHU.per)] <- 0
+df$NYHU.per <- df$NYHU.per/df$Bat.Counts
+df$NYHU.per[is.na(df$NYHU.per)] <- 0
+
+# Calculate % of MYGR
+MYGR.Counts <- data.frame(tapply(bats$Species[bats$Species == "Myotis grisescens"], bats$Sampling.Site.ID[bats$Species == "Myotis grisescens"], FUN = function(x) length(x)))
+df$MYGR.per <- MYGR.Counts[match(df$SiteID, rownames(MYGR.Counts)),]
+df$MYGR.per[is.na(df$MYGR.per)] <- 0
+df$MYGR.per <- df$MYGR.per/df$Bat.Counts
+df$MYGR.per[is.na(df$MYGR.per)] <- 0
+
+#Calculating Tolerance Value per site
+# #for(s in 1:dim(df)[1]){
+#   sub<- EPT[EPT$Site==df$SiteID[s], ]
+#   df$FBI[s] <- sum(sub$Fam.TV)/sum(sub$X..Count)#
+# }
+# df
+
+
+df2 <- data.frame(table(bats$Species, bats$Sampling.Site.ID))
+denom <- data.frame(tapply(df2$Freq, INDEX=df2$Var2, function(x) sum(x*(x-1))))
+df$Simpson <- (df$Bat.Counts*(df$Bat.Counts-1))/denom[match(df$SiteID, rownames(denom)),]
+df$Simpson[is.na(df$Simpson)] <- 0
+View(df)
+View(df2)
+
+#Get all Weather data and get it into a df
+
+Weather<-read.csv("Weatherdata.csv")
+
+View(Weather)
+
+#Convert relatiuve humidity to water vapor pressure in kPa
+Weather$wvp<- (0.611*exp((17.502*Weather$Temperature)/(Weather$Temperature+240.97)))*(Weather$Humidity*.001)
+
+Weather$dwvp<- (0.611*exp((17.502*Weather$Temperature)/(Weather$Temperature+240.97)))-Weather$wvp
+
+
+####Create each variable in a data frame to add to original df
+MaxPrec<- data.frame(tapply(Weather$Precip., Weather$Site, max))
+
+Tempmean<-data.frame(tapply(Weather$Temperature, Weather$Site, mean))
+
+Tempmin<-data.frame(tapply(Weather$Temperature, Weather$Site, min))
+
+Tempmax<- data.frame(tapply(Weather$Temperature,Weather$Site, max))
+
+dvpmean<- data.frame(tapply(Weather$dwvp, Weather$Site, mean))
+
+dvpmax<- data.frame(tapply(Weather$dwvp, Weather$Site, max))
+
+dvpmin<- data.frame(tapply(Weather$dwvp, Weather$Site, min))
+
+maxwind<- data.frame(tapply(Weather$Wind.Speed, Weather$Site, max))
+
+
+
+
+######Add it as a column by site to df
+df$Tempmean <- Tempmean[match(df$SiteID, rownames(Tempmean)),]
+
+df$Tempmax <- Tempmax[match(df$SiteID, rownames(Tempmax)),]
+
+df$Tempmin<-Tempmin[match(df$SiteID, rownames(Tempmin)),]
+
+df$Maxprec<-MaxPrec[match(df$SiteID, rownames(MaxPrec)),]
+
+df$dvpmean<-dvpmean[match(df$SiteID, rownames(dvpmean)),]
+
+df$dvpmax<- dvpmax[match(df$SiteID, rownames(dvpmax)),]
+
+df$dvpmin<- dvpmin[match(df$SiteID, rownames(dvpmin)),]
+
+df$maxwind<- maxwind[match(df$SiteID, rownames(maxwind)),]
+
+
+
+
+
+class(Weather$Time)
+Weather$time2<-hour(hm(Weather$Time,roll = TRUE))
+
+
+
+
+class(Weather$time2)
+
+
+rh2wvp <- function(pct.rh, Ta){
+  wvp = (pct.rh*0.01)*(0.61 * exp((17.50 * Ta)/(Ta + 240.97)))
+  return(wvp)
+}
+Weather$WVP<- rh2wvp(Weather$Humidity,Weather$Temperature)
+
+weather.pca <-prcomp(df[!is.na(df$dvpmin),17:24], center = TRUE, scale. = TRUE)
+
+#Check eigenvalues to determine which PCs to use in model (>1 SD)
+summary(weather.pca)
+
+#Add first 2 PCs to dataframe
+df <- df[!is.na(df$Tempmean),]
+df$pc1 <- weather.pca$x[,1]
+df$pc2 <- weather.pca$x[,2]
+```
+
+## R Markdown
+
+Part 1- Models 
+I will be using models from my actual data to show what we learned from class this past few weeks
+```{r gg pairs, include=TRUE}
+ggpairs(df, columns = 17:24)
+```
+
+
+```{r model, include=TRUE}
+glm1<-glm(Bat.Species.Richness~ FBI + pc1+pc2, data= df, family = poisson())
+
+anova(glm1)
+```
+
+Here is the performance check
+
+```{r performance, include= TRUE}
+```
+
+
+```{r performance, include= TRUE}
+performance::check_collinearity(glm1)
+```
+
+Low correlation of multicolinearity
+```{r dredge, include = TRUE}
+options(na.action = "na.fail") # otherwise blows up with NA values
+dredge_df<-dredge(glm1)
+dredge_df
+```
+
+
+```{r dredge 1, include = TRUE}
+subset(dredge_df, delta <5)
+```
+Grabbing equally competitive models
+```{r subset 1, include = TRUE}
+subset(dredge_df, delta <2)
+```
+
+calculate importance
+
+```{r impo 1, include=TRUE}
+importance(dredge_df)
+```
+model averaging
+```{r, include = TRUE}
+model.avg(dredge_df, revised.var = TRUE)
+```
+Here's the summary
+```{r sum model, include=TRUE}
+summary(model.avg(dredge_df))
+```
+```{r plot 1, include=TRUE}
+w1 <- ggplot(df, aes(pc1, pc2)) + 
+  geom_point() +
+  geom_smooth(method="glm")
+  #scale_x_continuous(limits = c(0, 700))
+
+w2 <- ggplot(df, aes(pc1, FBI)) + 
+  geom_point() +
+  geom_smooth(method="glm")
+
+w3 <- ggplot(df, aes(pc2, FBI)) + 
+  geom_point() +
+  geom_smooth(method="glm")
+
+plot(w1)
+plot(w2)
+plot(w3)
+
+
+
+```
+```{r gg pair2,include=TRUE}
+ggpairs(df, columns = 9:16)
+```
+run our next model looking at Simpsons score as a function of FBI
+
+```{r gg pairs 1,include=TRUE}
+glm.1<-glm(Simpson~ FBI + pc1 + pc2, data= df, family = gaussian())
+
+anova(glm.1)
+```
+Next we do our performance check
+```{r collinearity, include =TRUE}
+performance::check_collinearity(glm.1)
+```
+```{r dredge 3, include=TRUE}
+options(na.action = "na.fail") # otherwise blows up with NA values
+dredge_df1<-dredge(glm.1)
+dredge_df1
+```
+subset to equally competitive models
+```{r subset, include= TRUE}
+subset(dredge_df1, delta <2)
+```
+```{r importance, include =TRUE}
+importance(dredge_df1)
+```
+
+```{r, include = TRUE}
+model.avg(dredge_df1, revised.var = TRUE)
+```
+summary
+
+```{r zummary, include=TRUE}
+summary(model.avg(dredge_df1))
+```
+```{r plots, include=TRUE}
+w4 <- ggplot(df, aes(Bat.Species.Richness, Simpson)) + 
+  geom_point() +
+  geom_smooth(method="glm")
+  #scale_x_continuous(limits = c(0, 700))
+
+
+
+plot(w4)
+
+```
+

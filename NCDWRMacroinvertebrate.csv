@@ -1,0 +1,526 @@
+Order,Family,Latin Name,Tolerance Value
+Ephemeroptera,AMELETIDAE,Ameletus lineatus,2.4
+Ephemeroptera,BAETIDAE,Acentrella alachua,3.0
+Ephemeroptera,BAETIDAE,Acentrella nadineae,1.9
+Ephemeroptera,BAETIDAE,Acentrella parvula,4.8
+Ephemeroptera,BAETIDAE,Acentrella spp,2.5
+Ephemeroptera,BAETIDAE,Acentrella turbida gr,2.0
+Ephemeroptera,BAETIDAE,Acerpenna pygmaea,3.7
+Ephemeroptera,BAETIDAE,Baetis flavistriga,6.8
+Ephemeroptera,BAETIDAE,Baetis intercalaris,5.0
+Ephemeroptera,BAETIDAE,Baetis pluto,3.4
+Ephemeroptera,BAETIDAE,Baetis tricaudatus,1.5
+Ephemeroptera,BAETIDAE,Callibaetis spp,9.2
+Ephemeroptera,BAETIDAE,Centroptilum spp,3.8
+Ephemeroptera,BAETIDAE,Cloeon spp,7.3
+Ephemeroptera,BAETIDAE,Diphetor hageni,1.1
+Ephemeroptera,BAETIDAE,Heterocloeon amplum,3.4
+Ephemeroptera,BAETIDAE,Heterocloeon curiosum,2.1
+Ephemeroptera,BAETIDAE,Heterocloeon spp,3.7
+Ephemeroptera,BAETIDAE,Iswaeon anoka,4.4
+Ephemeroptera,BAETIDAE,Labiobaetis ephippiatus,3.5
+Ephemeroptera,BAETIDAE,Labiobaetis frondalis,4.6
+Ephemeroptera,BAETIDAE,Labiobaetis propinquus,5.8
+Ephemeroptera,BAETIDAE,Paracloeodes spp,8.0
+Ephemeroptera,BAETIDAE,Plauditus cestus,4.6
+Ephemeroptera,BAETIDAE,Plauditus dubius gr,2.2
+Ephemeroptera,BAETIDAE,Procloeon spp,1.9
+Ephemeroptera,BAETISCIDAE,Baetisca berneri,1.4
+Ephemeroptera,BAETISCIDAE,Baetisca carolina,4.2
+Ephemeroptera,BAETISCIDAE,Baetisca spp,3.2
+Ephemeroptera,CAENIDAE,Brachycercus spp,2.1
+Ephemeroptera,CAENIDAE,Caenis spp,6.8
+Ephemeroptera,EPHEMERELLIDAE,Attenella attenuata,1.1
+Ephemeroptera,EPHEMERELLIDAE,Dannella simplex,3.4
+Ephemeroptera,EPHEMERELLIDAE,Drunella allegheniensis,0.3
+Ephemeroptera,EPHEMERELLIDAE,Drunella conestee,0.0
+Ephemeroptera,EPHEMERELLIDAE,Drunella cornutella,0.0
+Ephemeroptera,EPHEMERELLIDAE,Drunella lata,0.0
+Ephemeroptera,EPHEMERELLIDAE,Drunella tuberculata,0.0
+Ephemeroptera,EPHEMERELLIDAE,Drunella walkeri,0.6
+Ephemeroptera,EPHEMERELLIDAE,Drunella wayah,0.0
+Ephemeroptera,EPHEMERELLIDAE,Ephemerella catawba,0.0
+Ephemeroptera,EPHEMERELLIDAE,Ephemerella catawba/dorothea,4.0
+Ephemeroptera,EPHEMERELLIDAE,Ephemerella dorothea,3.3
+Ephemeroptera,EPHEMERELLIDAE,Ephemerella hispida,0.1
+Ephemeroptera,EPHEMERELLIDAE,Ephemerella invaria gr,2.6
+Ephemeroptera,EPHEMERELLIDAE,Ephemerella rossi gr,0.0
+Ephemeroptera,EPHEMERELLIDAE,Ephemerella rotunda,1.8
+Ephemeroptera,EPHEMERELLIDAE,Ephemerella spp,2.1
+Ephemeroptera,EPHEMERELLIDAE,Eurylophella bicolor,4.8
+Ephemeroptera,EPHEMERELLIDAE,Eurylophella doris,7.0
+Ephemeroptera,EPHEMERELLIDAE,Eurylophella funeralis,2.5
+Ephemeroptera,EPHEMERELLIDAE,Eurylophella spp,4.0
+Ephemeroptera,EPHEMERELLIDAE,Eurylophella temporalis gr,4.8
+Ephemeroptera,EPHEMERELLIDAE,Eurylophella verisimilis,3.9
+Ephemeroptera,EPHEMERELLIDAE,Penelomax septentrionalis,2.1
+Ephemeroptera,EPHEMERELLIDAE,Serratella carolina,0.0
+Ephemeroptera,EPHEMERELLIDAE,Serratella serrata,1.4
+Ephemeroptera,EPHEMERELLIDAE,Serratella serratoides,1.7
+Ephemeroptera,EPHEMERELLIDAE,Teloganopsis deficiens,2.6
+Ephemeroptera,EPHEMERIDAE,Ephemera blanda,2.4
+Ephemeroptera,EPHEMERIDAE,Ephemera guttalata,0.0
+Ephemeroptera,EPHEMERIDAE,Ephemera spp,2.0
+Ephemeroptera,EPHEMERIDAE,Hexagenia spp,4.4
+Ephemeroptera,HEPTAGENIIDAE,Cinygmula subaequalis,0.0
+Ephemeroptera,HEPTAGENIIDAE,Epeorus dispar,1.0
+Ephemeroptera,HEPTAGENIIDAE,Epeorus pleuralis,1.5
+Ephemeroptera,HEPTAGENIIDAE,Epeorus spp,1.6
+Ephemeroptera,HEPTAGENIIDAE,Epeorus vitreus,1.2
+Ephemeroptera,HEPTAGENIIDAE,Heptagenia marginalis gr,2.2
+Ephemeroptera,HEPTAGENIIDAE,Heptagenia pulla,2.2
+Ephemeroptera,HEPTAGENIIDAE,Heptagenia spp,1.9
+Ephemeroptera,HEPTAGENIIDAE,Leucrocuta aphrodite,2.9
+Ephemeroptera,HEPTAGENIIDAE,Leucrocuta spp,2.0
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium carlsoni,2.1
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium exiguum,3.8
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium ithaca,3.0
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium lenati,2.5
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium mediopunctatum,4.2
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium meririvulanum,0.5
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium mexicanum,4.7
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium modestum,5.7
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium pudicum,2.1
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium terminatum,4.4
+Ephemeroptera,HEPTAGENIIDAE,Maccaffertium vicarium,1.5
+Ephemeroptera,HEPTAGENIIDAE,Rhithrogena exilis,0.0
+Ephemeroptera,HEPTAGENIIDAE,Rhithrogena spp,0.0
+Ephemeroptera,HEPTAGENIIDAE,Rhithrogena uhari,0.0
+Ephemeroptera,HEPTAGENIIDAE,Stenacron carolina,1.3
+Ephemeroptera,HEPTAGENIIDAE,Stenacron interpunctatum,6.4
+Ephemeroptera,HEPTAGENIIDAE,Stenacron pallidum,2.8
+Ephemeroptera,HEPTAGENIIDAE,Stenonema femoratum,6.9
+Ephemeroptera,ISONYCHIIDAE,Isonychia spp,3.6
+Ephemeroptera,LEPTOHYPHIDAE,Tricorythodes spp,5.0
+Ephemeroptera,LEPTOPHLEBIIDAE,Habrophlebia vibrans,0.3
+Ephemeroptera,LEPTOPHLEBIIDAE,Leptophlebia spp,6.0
+Ephemeroptera,LEPTOPHLEBIIDAE,Paraleptophlebia spp,1.2
+Ephemeroptera,NEOEPHEMERIDAE,Neoephemera purpurea,1.5
+Ephemeroptera,POLYMITARCYIDAE,Ephoron leukon,1.5
+Ephemeroptera,POTAMANTHIDAE,Anthopotamus distinctus,1.6
+Ephemeroptera,POTAMANTHIDAE,Anthopotamus spp,1.5
+Ephemeroptera,SIPHLONURIDAE,Siphlonurus spp,6.0
+Plecoptera,CAPNIIDAE,Allocapnia spp,3.3
+Plecoptera,CHLOROPERLIDAE,Alloperla spp,1.0
+Plecoptera,CHLOROPERLIDAE,Haploperla brevis,1.4
+Plecoptera,CHLOROPERLIDAE,Suwallia marginata,2.6
+Plecoptera,CHLOROPERLIDAE,Sweltsa spp,0.2
+Plecoptera,LEUCTRIDAE,Leuctra spp,1.5
+Plecoptera,NEMOURIDAE,Amphinemura spp,3.8
+Plecoptera,NEMOURIDAE,Prostoia spp,5.2
+Plecoptera,PELTOPERLIDAE,Tallaperla spp,1.3
+Plecoptera,PERLIDAE,Acroneuria abnormis,2.1
+Plecoptera,PERLIDAE,Acroneuria arenosa,2.4
+Plecoptera,PERLIDAE,Acroneuria carolinensis,1.2
+Plecoptera,PERLIDAE,Acroneuria evoluta,1.7
+Plecoptera,PERLIDAE,Acroneuria lycorias,2.1
+Plecoptera,PERLIDAE,Agnetina spp,1.1
+Plecoptera,PERLIDAE,Beloneuria spp,0.0
+Plecoptera,PERLIDAE,Eccoptura xanthenes,4.7
+Plecoptera,PERLIDAE,Neoperla spp,2.1
+Plecoptera,PERLIDAE,Paragnetina fumosa,3.6
+Plecoptera,PERLIDAE,Paragnetina ichusa/media,0.2
+Plecoptera,PERLIDAE,Paragnetina immarginata,1.1
+Plecoptera,PERLIDAE,Paragnetina kansensis,1.9
+Plecoptera,PERLIDAE,Perlesta spp,2.9
+Plecoptera,PERLIDAE,Perlinella drymo,1.3
+Plecoptera,PERLODIDAE,Clioperla clio,5.2
+Plecoptera,PERLODIDAE,Cultus decisus complex,1.5
+Plecoptera,PERLODIDAE,Diploperla duplicata,2.8
+Plecoptera,PERLODIDAE,Helopicus subvarians,1.2
+Plecoptera,PERLODIDAE,Isoperla davisi/nr transmarina,4.8
+Plecoptera,PERLODIDAE,Isoperla holochlora-dark form/cf powhatan,1.2
+Plecoptera,PERLODIDAE,Isoperla holochlora-light form,0.7
+Plecoptera,PERLODIDAE,Isoperla kirchneri complex,2.5
+Plecoptera,PERLODIDAE,Isoperla nr holochlora,0.0
+Plecoptera,PERLODIDAE,Isoperla orata,0.0
+Plecoptera,PERLODIDAE,Isoperla poffi/n sp-Collins Cr,5.2
+Plecoptera,PERLODIDAE,Isoperla similis/pseudosimilis gr,0.8
+Plecoptera,PERLODIDAE,Isoperla spp,3.2
+Plecoptera,PERLODIDAE,Malirekus hastatus,1.0
+Plecoptera,PERLODIDAE,Remenus spp,0.9
+Plecoptera,PTERONARCYIDAE,Pteronarcys biloba,0.0
+Plecoptera,PTERONARCYIDAE,Pteronarcys dorsata,2.4
+Plecoptera,PTERONARCYIDAE,Pteronarcys proteus,0.4
+Plecoptera,PTERONARCYIDAE,Pteronarcys spp,1.8
+Plecoptera,TAENIOPTERYGIDAE,Strophopteryx spp,3.3
+Plecoptera,TAENIOPTERYGIDAE,Taeniopteryx burksi,6.6
+Plecoptera,TAENIOPTERYGIDAE,Taeniopteryx spp,6.0
+Trichoptera,APATANIIDAE,Apatania spp,0.6
+Trichoptera,BRACHYCENTRIDAE,Brachycentrus appalachia,1.0
+Trichoptera,BRACHYCENTRIDAE,Brachycentrus lateralis,1.9
+Trichoptera,BRACHYCENTRIDAE,Brachycentrus nigrosoma,3.1
+Trichoptera,BRACHYCENTRIDAE,Brachycentrus numerosus,1.7
+Trichoptera,BRACHYCENTRIDAE,Brachycentrus spinae,0.0
+Trichoptera,BRACHYCENTRIDAE,Brachycentrus spp,2.2
+Trichoptera,BRACHYCENTRIDAE,Micrasema bennetti,0.0
+Trichoptera,BRACHYCENTRIDAE,Micrasema charonis,1.0
+Trichoptera,BRACHYCENTRIDAE,Micrasema rickeri,0.0
+Trichoptera,BRACHYCENTRIDAE,Micrasema wataga,2.2
+Trichoptera,CALAMOCERATIDAE,Anisocentropus pyraloides,1.3
+Trichoptera,CALAMOCERATIDAE,Heteroplectron americanum,2.0
+Trichoptera,DIPSEUDOPSIDAE,Phylocentropus spp,4.8
+Trichoptera,GLOSSOSOMATIDAE,Agapetus spp,0.0
+Trichoptera,GLOSSOSOMATIDAE,Glossosoma spp,1.4
+Trichoptera,GLOSSOSOMATIDAE,Protoptila spp,2.3
+Trichoptera,GOERIDAE,Goera calcarata,1.0
+Trichoptera,GOERIDAE,Goera spp,0.7
+Trichoptera,HELICOPSYCHIDAE,Helicopsyche borealis,0.0
+Trichoptera,HYDROPSYCHIDAE,Arctopsyche irrorata,0.0
+Trichoptera,HYDROPSYCHIDAE,Cheumatopsyche spp,6.6
+Trichoptera,HYDROPSYCHIDAE,Diplectrona modesta,2.3
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (C.) alhedra,0.0
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (C.) bronta,2.3
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (C.) macleodi,0.7
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (C.) morosa,2.3
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (C.) slossonae,0.0
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (C.) sparna,2.5
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (H.) betteni,7.9
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (H.) decalda,3.2
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (H.) demora,2.6
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (H.) incommoda,4.6
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (H.) phalerata,3.7
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (H.) rossi,4.8
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (H.) scalaris,2.6
+Trichoptera,HYDROPSYCHIDAE,Hydropsyche (H.) venularis,5.1
+Trichoptera,HYDROPSYCHIDAE,Macrostemum spp,3.4
+Trichoptera,HYDROPSYCHIDAE,Parapsyche cardis,0.0
+Trichoptera,HYDROPTILIDAE,Hydroptila spp,6.5
+Trichoptera,HYDROPTILIDAE,Leucotrichia pictipes,4.6
+Trichoptera,LEPIDOSTOMATIDAE,Lepidostoma spp,1.0
+Trichoptera,LEPTOCERIDAE,Ceraclea ancylus,2.8
+Trichoptera,LEPTOCERIDAE,Ceraclea maculata,6.2
+Trichoptera,LEPTOCERIDAE,Ceraclea spp,2.2
+Trichoptera,LEPTOCERIDAE,Ceraclea transversa,2.8
+Trichoptera,LEPTOCERIDAE,Mystacides sepulchralis,2.6
+Trichoptera,LEPTOCERIDAE,Nectopsyche candida,6.5
+Trichoptera,LEPTOCERIDAE,Nectopsyche exquisita,4.3
+Trichoptera,LEPTOCERIDAE,Nectopsyche pavida,3.9
+Trichoptera,LEPTOCERIDAE,Oecetis georgia,3.6
+Trichoptera,LEPTOCERIDAE,Oecetis nocturna,5.0
+Trichoptera,LEPTOCERIDAE,Oecetis persimilis,4.6
+Trichoptera,LEPTOCERIDAE,Oecetis scala gr,2.7
+Trichoptera,LEPTOCERIDAE,Oecetis spp,5.1
+Trichoptera,LEPTOCERIDAE,Setodes spp,0.0
+Trichoptera,LEPTOCERIDAE,Triaenodes ignitus,4.8
+Trichoptera,LEPTOCERIDAE,Triaenodes injustus,2.7
+Trichoptera,LEPTOCERIDAE,Triaenodes perna/helo,3.8
+Trichoptera,LEPTOCERIDAE,Triaenodes spp,4.1
+Trichoptera,LIMNEPHILIDAE,Hydatophylax argus,2.4
+Trichoptera,LIMNEPHILIDAE,Ironoquia punctatissima,6.7
+Trichoptera,LIMNEPHILIDAE,Pycnopsyche gentilis,1.8
+Trichoptera,LIMNEPHILIDAE,Pycnopsyche guttifer,2.2
+Trichoptera,LIMNEPHILIDAE,Pycnopsyche lepida gr,3.9
+Trichoptera,LIMNEPHILIDAE,Pycnopsyche scabripennis,2.5
+Trichoptera,LIMNEPHILIDAE,Pycnopsyche spp,2.5
+Trichoptera,MOLANNIDAE,Molanna blenda,1.6
+Trichoptera,MOLANNIDAE,Molanna tryphena,2.4
+Trichoptera,ODONTOCERIDAE,Psilotreta spp,0.5
+Trichoptera,PHILOPOTAMIDAE,Chimarra spp,3.3
+Trichoptera,PHILOPOTAMIDAE,Dolophilodes spp,1.0
+Trichoptera,PHILOPOTAMIDAE,Wormaldia spp,2.4
+Trichoptera,PHRYGANEIDAE,Oligostomis pardalis,6.2
+Trichoptera,PHRYGANEIDAE,Ptilostomis spp,5.9
+Trichoptera,POLYCENTROPODIDAE,Cyrnellus fraternus,6.8
+Trichoptera,POLYCENTROPODIDAE,Neureclipsis spp,4.0
+Trichoptera,POLYCENTROPODIDAE,Nyctiophylax celta,0.7
+Trichoptera,POLYCENTROPODIDAE,Nyctiophylax moestus,3.8
+Trichoptera,POLYCENTROPODIDAE,Nyctiophylax nephophilus,0.6
+Trichoptera,POLYCENTROPODIDAE,Nyctiophylax spp,0.8
+Trichoptera,POLYCENTROPODIDAE,Polycentropus sensu lato spp,3.1
+Trichoptera,PSYCHOMYIIDAE,Lype diversa,3.9
+Trichoptera,PSYCHOMYIIDAE,Psychomyia flavida,3.0
+Trichoptera,PSYCHOMYIIDAE,Psychomyia nomada,2.0
+Trichoptera,RHYACOPHILIDAE,Rhyacophila acutiloba,0.0
+Trichoptera,RHYACOPHILIDAE,Rhyacophila appalachia/nigrita,0.0
+Trichoptera,RHYACOPHILIDAE,Rhyacophila atrata,0.0
+Trichoptera,RHYACOPHILIDAE,Rhyacophila carolina,0.4
+Trichoptera,RHYACOPHILIDAE,Rhyacophila fenestra/ledra,4.6
+Trichoptera,RHYACOPHILIDAE,Rhyacophila formosa,0.1
+Trichoptera,RHYACOPHILIDAE,Rhyacophila fuscula,1.6
+Trichoptera,RHYACOPHILIDAE,Rhyacophila torva,1.5
+Trichoptera,SERICOSTOMATIDAE,Fattigia pele,0.0
+Trichoptera,UENOIDAE,Neophylax consimilis,0.3
+Trichoptera,UENOIDAE,Neophylax fuscus,0.0
+Trichoptera,UENOIDAE,Neophylax mitchelli,0.0
+Trichoptera,UENOIDAE,Neophylax oligius,2.4
+Trichoptera,UENOIDAE,Neophylax ornatus,1.3
+Trichoptera,UENOIDAE,Neophylax spp,1.6
+Odonata,AESHNIDAE,Basiaeschna janata,7.1
+Odonata,AESHNIDAE,Boyeria grafiana,3.8
+Odonata,AESHNIDAE,Boyeria vinosa,5.8
+Odonata,AESHNIDAE,Nasiaeschna pentacantha,6.6
+Odonata,CALOPTERYGIDAE,Calopteryx spp,7.5
+Odonata,CALOPTERYGIDAE,Hetaerina spp,4.9
+Odonata,COENAGRIONIDAE,Argia spp,8.3
+Odonata,COENAGRIONIDAE,Enallagma spp,8.5
+Odonata,COENAGRIONIDAE,Ischnura spp,9.5
+Odonata,CORDULEGASTRIDAE,Cordulegaster spp,5.7
+Odonata,CORDULIIDAE,Epitheca princeps,7.3
+Odonata,CORDULIIDAE,Epitheca spp,8.0
+Odonata,CORDULIIDAE,Helocordulia spp,5.8
+Odonata,CORDULIIDAE,Neurocordulia obsoleta,5.3
+Odonata,CORDULIIDAE,Neurocordulia spp,5.3
+Odonata,CORDULIIDAE,Neurocordulia virginiensis,1.1
+Odonata,CORDULIIDAE,Somatochlora spp,8.9
+Odonata,GOMPHIDAE,Dromogomphus spp,5.6
+Odonata,GOMPHIDAE,Gomphus spiniceps,6.1
+Odonata,GOMPHIDAE,Gomphus spp,5.9
+Odonata,GOMPHIDAE,Hagenius brevistylus,4.4
+Odonata,GOMPHIDAE,Lanthus parvulus,0.6
+Odonata,GOMPHIDAE,Lanthus spp,1.6
+Odonata,GOMPHIDAE,Lanthus vernalis,0.8
+Odonata,GOMPHIDAE,Ophiogomphus spp,5.9
+Odonata,GOMPHIDAE,Progomphus spp,8.2
+Odonata,GOMPHIDAE,Stylogomphus albistylus/sigmastylus,5.0
+Odonata,LIBELLULIDAE,Libellula spp,9.4
+Odonata,LIBELLULIDAE,Pachydiplax longipennis,9.6
+Odonata,LIBELLULIDAE,Perithemis spp,9.4
+Odonata,LIBELLULIDAE,Plathemis lydia,9.8
+Odonata,MACROMIIDAE,Macromia spp,6.2
+Hemiptera,BELOSTOMATIDAE,Belostoma spp,9.5
+Hemiptera,CORIXIDAE,Sigara spp,8.7
+Hemiptera,NEPIDAE,Ranatra spp,6.3
+Megaloptera,CORYDALIDAE,Corydalus cornutus,5.2
+Megaloptera,CORYDALIDAE,Nigronia fasciatus,6.1
+Megaloptera,CORYDALIDAE,Nigronia serricornis,4.6
+Megaloptera,SIALIDAE,Sialis spp,7.0
+Coleoptera,DRYOPIDAE,Helichus basalis,0.5
+Coleoptera,DRYOPIDAE,Helichus lithophilus,3.0
+Coleoptera,DRYOPIDAE,Helichus spp,4.1
+Coleoptera,DYTISCIDAE,Coptotomus spp,8.5
+Coleoptera,DYTISCIDAE,Hydroporus spp,7.0
+Coleoptera,DYTISCIDAE,Laccophilus spp,9.8
+Coleoptera,DYTISCIDAE,Lioporeus spp,4.0
+Coleoptera,DYTISCIDAE,Neoporus mellitus,3.9
+Coleoptera,DYTISCIDAE,Neoporus spp,5.0
+Coleoptera,DYTISCIDAE,Stictotarsus griseostriatus,4.9
+Coleoptera,ELMIDAE,Ancyronyx variegatus,6.8
+Coleoptera,ELMIDAE,Dubiraphia spp,5.5
+Coleoptera,ELMIDAE,Dubiraphia vittata,5.0
+Coleoptera,ELMIDAE,Macronychus glabratus,4.7
+Coleoptera,ELMIDAE,Microcylloepus pusillus,3.3
+Coleoptera,ELMIDAE,Optioservus ovalis,2.1
+Coleoptera,ELMIDAE,Optioservus spp,2.1
+Coleoptera,ELMIDAE,Oulimnius latiusculus,1.9
+Coleoptera,ELMIDAE,Promoresia elegans,2.1
+Coleoptera,ELMIDAE,Promoresia spp,3.1
+Coleoptera,ELMIDAE,Promoresia tardella,0.0
+Coleoptera,ELMIDAE,Stenelmis crenata,7.8
+Coleoptera,ELMIDAE,Stenelmis spp,5.6
+Coleoptera,GYRINIDAE,Dineutus spp,5.0
+Coleoptera,GYRINIDAE,Gyrinus spp,5.8
+Coleoptera,HALIPLIDAE,Peltodytes spp,8.4
+Coleoptera,HYDROPHILIDAE,Berosus spp,8.8
+Coleoptera,HYDROPHILIDAE,Enochrus spp,8.5
+Coleoptera,HYDROPHILIDAE,Laccobius spp,6.5
+Coleoptera,HYDROPHILIDAE,Sperchopsis tessellatus,4.4
+Coleoptera,HYDROPHILIDAE,Tropisternus spp,9.3
+Coleoptera,PSEPHENIDAE,Ectopria nervosa,4.3
+Coleoptera,PSEPHENIDAE,Psephenus herricki,2.3
+Coleoptera,PTILODACTYLIDAE,Anchytarsus bicolor,2.4
+Diptera,BLEPHARICERIDAE,Blepharicera spp,0.0
+Diptera,CERATOPOGONIDAE,Atrichopogon spp,6.1
+Diptera,CERATOPOGONIDAE,Culicoides spp,8.6
+Diptera,CERATOPOGONIDAE,Palpomyia complex,5.7
+Diptera,CHIRONOMIDAE,Ablabesmyia mallochi,7.4
+Diptera,CHIRONOMIDAE,Ablabesmyia rhamphe gr,6.8
+Diptera,CHIRONOMIDAE,Brillia flavifrons,3.9
+Diptera,CHIRONOMIDAE,Brillia spp,5.7
+Diptera,CHIRONOMIDAE,Brundiniella eumorpha,2.0
+Diptera,CHIRONOMIDAE,Cardiocladius spp,6.2
+Diptera,CHIRONOMIDAE,Chironomus spp,9.3
+Diptera,CHIRONOMIDAE,Cladotanytarsus cf daviesi,2.8
+Diptera,CHIRONOMIDAE,Cladotanytarsus sp B,4.7
+Diptera,CHIRONOMIDAE,Cladotanytarsus spp,4.0
+Diptera,CHIRONOMIDAE,Clinotanypus spp,7.8
+Diptera,CHIRONOMIDAE,Corynoneura spp,5.7
+Diptera,CHIRONOMIDAE,Cricotopus annulator complex,8.4
+Diptera,CHIRONOMIDAE,Cricotopus bicinctus,8.7
+Diptera,CHIRONOMIDAE,Cricotopus fugax,5.6
+Diptera,CHIRONOMIDAE,Cricotopus infuscatus gr,9.1
+Diptera,CHIRONOMIDAE,Cricotopus vierriensis gr,5.4
+Diptera,CHIRONOMIDAE,Cryptochironomus blarina gr,8.5
+Diptera,CHIRONOMIDAE,Cryptochironomus fulvus,6.7
+Diptera,CHIRONOMIDAE,Cryptochironomus spp,6.4
+Diptera,CHIRONOMIDAE,Cryptotendipes spp,6.2
+Diptera,CHIRONOMIDAE,Demicryptochironomus spp,2.2
+Diptera,CHIRONOMIDAE,Diamesa spp,6.6
+Diptera,CHIRONOMIDAE,Dicrotendipes fumidus,8.8
+Diptera,CHIRONOMIDAE,Dicrotendipes modestus,9.4
+Diptera,CHIRONOMIDAE,Dicrotendipes neomodestus,7.9
+Diptera,CHIRONOMIDAE,Dicrotendipes nervosus,9.5
+Diptera,CHIRONOMIDAE,Dicrotendipes simpsoni,9.8
+Diptera,CHIRONOMIDAE,Dicrotendipes spp,7.2
+Diptera,CHIRONOMIDAE,Diplocladius cultriger,8.0
+Diptera,CHIRONOMIDAE,Eukiefferiella brehmi gr,2.5
+Diptera,CHIRONOMIDAE,Eukiefferiella brevicalcar gr,2.9
+Diptera,CHIRONOMIDAE,Eukiefferiella claripennis gr,6.2
+Diptera,CHIRONOMIDAE,Eukiefferiella devonica gr,3.4
+Diptera,CHIRONOMIDAE,Eukiefferiella gracei gr,4.4
+Diptera,CHIRONOMIDAE,Eukiefferiella pseudomontana gr,1.3
+Diptera,CHIRONOMIDAE,Glyptotendipes spp,8.6
+Diptera,CHIRONOMIDAE,Heleniella spp,0.0
+Diptera,CHIRONOMIDAE,Hydrobaenus spp,9.2
+Diptera,CHIRONOMIDAE,Kribiodorum perpulchrum,4.0
+Diptera,CHIRONOMIDAE,Labrundinia pilosella,6.2
+Diptera,CHIRONOMIDAE,Labrundinia spp,6.2
+Diptera,CHIRONOMIDAE,Larsia spp,6.5
+Diptera,CHIRONOMIDAE,Lopescladius spp,1.2
+Diptera,CHIRONOMIDAE,Micropsectra spp,2.4
+Diptera,CHIRONOMIDAE,Microtendipes pedellus gr,3.9
+Diptera,CHIRONOMIDAE,Microtendipes rydalensis gr,1.1
+Diptera,CHIRONOMIDAE,Microtendipes spp,4.6
+Diptera,CHIRONOMIDAE,Nanocladius downesi,2.4
+Diptera,CHIRONOMIDAE,Nanocladius spp,7.4
+Diptera,CHIRONOMIDAE,Natarsia spp,9.6
+Diptera,CHIRONOMIDAE,Nilotanypus fimbriatus,4.9
+Diptera,CHIRONOMIDAE,Nilotanypus spp,4.1
+Diptera,CHIRONOMIDAE,Nilothauma spp,5.1
+Diptera,CHIRONOMIDAE,Odontomesa fulva,4.9
+Diptera,CHIRONOMIDAE,Orthocladius clarkei gr,5.6
+Diptera,CHIRONOMIDAE,Orthocladius dorenus,5.8
+Diptera,CHIRONOMIDAE,Orthocladius dubitatus,9.0
+Diptera,CHIRONOMIDAE,Orthocladius lignicola,5.4
+Diptera,CHIRONOMIDAE,Orthocladius luteipes/thienemanni,6.3
+Diptera,CHIRONOMIDAE,Orthocladius nigritus,3.8
+Diptera,CHIRONOMIDAE,Orthocladius obumbratus gr,8.1
+Diptera,CHIRONOMIDAE,Orthocladius robacki,6.4
+Diptera,CHIRONOMIDAE,Orthocladius spp,4.4
+Diptera,CHIRONOMIDAE,Pagastia orthogonia,1.5
+Diptera,CHIRONOMIDAE,Parachaetocladius abnobaeus,0.7
+Diptera,CHIRONOMIDAE,Parachironomus spp,8.0
+Diptera,CHIRONOMIDAE,Paracladopelma spp,6.3
+Diptera,CHIRONOMIDAE,Paracladopelma undine,4.5
+Diptera,CHIRONOMIDAE,Parakiefferiella sp A,8.5
+Diptera,CHIRONOMIDAE,Parakiefferiella spp,4.8
+Diptera,CHIRONOMIDAE,Paralauterborniella nigrohalteralis,4.9
+Diptera,CHIRONOMIDAE,Paramerina spp,4.1
+Diptera,CHIRONOMIDAE,Parametriocnemus spp,3.9
+Diptera,CHIRONOMIDAE,Paratanytarsus spp,8.0
+Diptera,CHIRONOMIDAE,Paratendipes spp,5.6
+Diptera,CHIRONOMIDAE,Pentaneura inconspicua,5.0
+Diptera,CHIRONOMIDAE,Phaenopsectra obediens gr,6.6
+Diptera,CHIRONOMIDAE,Phaenopsectra punctipes gr,7.1
+Diptera,CHIRONOMIDAE,Polypedilum aviceps,3.6
+Diptera,CHIRONOMIDAE,Polypedilum fallax/sp A,6.5
+Diptera,CHIRONOMIDAE,Polypedilum flavum,5.7
+Diptera,CHIRONOMIDAE,Polypedilum halterale gr,7.4
+Diptera,CHIRONOMIDAE,Polypedilum illinoense gr,8.7
+Diptera,CHIRONOMIDAE,Polypedilum laetum,2.2
+Diptera,CHIRONOMIDAE,Polypedilum scalaenum gr,8.5
+Diptera,CHIRONOMIDAE,Potthastia cf gaedii,2.4
+Diptera,CHIRONOMIDAE,Potthastia longimana,8.4
+Diptera,CHIRONOMIDAE,Procladius spp,8.8
+Diptera,CHIRONOMIDAE,Prodiamesa olivacea,8.8
+Diptera,CHIRONOMIDAE,Psectrotanypus dyari,10.0
+Diptera,CHIRONOMIDAE,Pseudochironomus spp,4.9
+Diptera,CHIRONOMIDAE,Rheocricotopus robacki,7.9
+Diptera,CHIRONOMIDAE,Rheocricotopus spp,4.7
+Diptera,CHIRONOMIDAE,Rheocricotopus tuberculatus,4.7
+Diptera,CHIRONOMIDAE,Rheopelopia spp,0.3
+Diptera,CHIRONOMIDAE,Rheosmittia spp,6.8
+Diptera,CHIRONOMIDAE,Rheotanytarsus spp,6.5
+Diptera,CHIRONOMIDAE,Robackia claviger,1.9
+Diptera,CHIRONOMIDAE,Robackia demeijerei,4.3
+Diptera,CHIRONOMIDAE,Saetheria tylus,7.3
+Diptera,CHIRONOMIDAE,Stempellinella spp,5.6
+Diptera,CHIRONOMIDAE,Stenochironomus spp,6.3
+Diptera,CHIRONOMIDAE,Stictochironomus spp,5.4
+Diptera,CHIRONOMIDAE,Sublettea coffmani,1.4
+Diptera,CHIRONOMIDAE,Sympotthastia spp,4.5
+Diptera,CHIRONOMIDAE,Synorthocladius spp,4.2
+Diptera,CHIRONOMIDAE,Tanytarsus sp 2,6.9
+Diptera,CHIRONOMIDAE,Tanytarsus sp 3,7.3
+Diptera,CHIRONOMIDAE,Tanytarsus sp 4,4.7
+Diptera,CHIRONOMIDAE,Tanytarsus sp 6,7.8
+Diptera,CHIRONOMIDAE,Tanytarsus sp A,6.9
+Diptera,CHIRONOMIDAE,Tanytarsus sp C,6.1
+Diptera,CHIRONOMIDAE,Tanytarsus sp L,4.7
+Diptera,CHIRONOMIDAE,Tanytarsus sp M,3.2
+Diptera,CHIRONOMIDAE,Tanytarsus sp P,4.8
+Diptera,CHIRONOMIDAE,Tanytarsus sp U,6.4
+Diptera,CHIRONOMIDAE,Tanytarsus spp,6.6
+Diptera,CHIRONOMIDAE,Thienemanniella spp,6.4
+Diptera,CHIRONOMIDAE,Thienemanniella xena,8.0
+Diptera,CHIRONOMIDAE,Thienemannimyia gr,8.4
+Diptera,CHIRONOMIDAE,Tribelos jucundum,5.7
+Diptera,CHIRONOMIDAE,Tribelos spp,6.4
+Diptera,CHIRONOMIDAE,Tvetenia bavarica gr,3.6
+Diptera,CHIRONOMIDAE,Tvetenia vitracies,3.5
+Diptera,CHIRONOMIDAE,Xenochironomus xenolabis,6.6
+Diptera,CHIRONOMIDAE,Xylotopus par,6.1
+Diptera,CHIRONOMIDAE,Zavrelia spp,6.1
+Diptera,CHIRONOMIDAE,Zavrelimyia spp,8.6
+Diptera,CULICIDAE,Anopheles spp,8.6
+Diptera,DIXIDAE,Dixa spp,2.5
+Diptera,DIXIDAE,Dixella spp,4.9
+Diptera,RHAGIONIDAE,Atherix lantha,1.8
+Diptera,RHAGIONIDAE,Atherix spp,0.9
+Diptera,SIMULIIDAE,Prosimulium mixtum,3.6
+Diptera,SIMULIIDAE,Prosimulium spp,4.5
+Diptera,SIMULIIDAE,Simulium spp,4.9
+Diptera,SIMULIIDAE,Simulium venustum,7.3
+Diptera,SIMULIIDAE,Simulium vittatum,9.1
+Diptera,TABANIDAE,Chrysops spp,6.7
+Diptera,TABANIDAE,Tabanus spp,8.5
+Diptera,TANYDERIDAE,Protoplasa fitchii,4.0
+Diptera,TIPULIDAE,Antocha spp,4.4
+Diptera,TIPULIDAE,Dicranota spp,0.0
+Diptera,TIPULIDAE,Hexatoma spp,3.5
+Diptera,TIPULIDAE,Limonia spp,9.3
+Diptera,TIPULIDAE,Polymeda/Ormosia spp,6.5
+Diptera,TIPULIDAE,Pseudolimnophila spp,6.2
+Diptera,TIPULIDAE,Tipula spp,7.5
+Oligochaeta,NAIDIDAE,Dero spp,9.8
+Oligochaeta,NAIDIDAE,Nais spp,8.7
+Oligochaeta,NAIDIDAE,Pristina spp,7.7
+Oligochaeta,NAIDIDAE,Slavina appendiculata,8.4
+Oligochaeta,NAIDIDAE,Stylaria lacustris,8.4
+Oligochaeta,TUBIFICIDAE,Aulodrilus pluriseta,5.6
+Oligochaeta,TUBIFICIDAE,Branchiura sowerbyi,8.6
+Oligochaeta,TUBIFICIDAE,Ilyodrilus templetoni,9.3
+Oligochaeta,TUBIFICIDAE,Limnodrilus hoffmeisteri,9.4
+Oligochaeta,TUBIFICIDAE,Limnodrilus spp,8.5
+Oligochaeta,TUBIFICIDAE,Spirosperma nikolskyi,6.0
+Oligochaeta,TUBIFICIDAE,Tubifex tubifex,9.9
+Gastropoda,ANCYLIDAE,Ferrissia spp,6.6
+Gastropoda,ANCYLIDAE,Laevapex fuscus,6.6
+Gastropoda,HYDROBIIDAE,Amnicola spp,4.1
+Gastropoda,LYMNAEIDAE,Pseudosuccinea columella,7.7
+Gastropoda,LYMNAEIDAE,Stagnicola spp,8.1
+Gastropoda,PHYSIDAE,Physa spp,8.7
+Gastropoda,PLANORBIDAE,Helisoma anceps,6.6
+Gastropoda,PLANORBIDAE,Menetus dilatatus,7.6
+Gastropoda,PLEUROCERIDAE,Elimia spp,2.7
+Gastropoda,PLEUROCERIDAE,Leptoxis spp,1.7
+Gastropoda,VIVIPARIDAE,Campeloma decisum,5.8
+Bivalvia,CORBICULIDAE,Corbicula fluminea,6.6
+Bivalvia,SPHAERIIDAE,Pisidium spp,6.6
+Bivalvia,SPHAERIIDAE,Sphaerium spp,7.2
+Bivalvia,UNIONIDAE,Elliptio complanata,4.7
+Bivalvia,UNIONIDAE,Elliptio spp,4.9
+Crustacea,ASELLIDAE,Caecidotea spp,8.4
+Crustacea,ASELLIDAE,Lirceus spp,7.4
+Crustacea,CAMBARIDAE,Cambarus (P.) sp C,6.3
+Crustacea,CAMBARIDAE,Cambarus spp,7.5
+Crustacea,CAMBARIDAE,Orconectes spp,2.7
+Crustacea,CAMBARIDAE,Procambarus spp,9.3
+Crustacea,GAMMARIDAE,Crangonyx spp,7.2
+Crustacea,GAMMARIDAE,Gammarus fasciatus,7.0
+Crustacea,GAMMARIDAE,Gammarus spp,7.1
+Crustacea,PALAEMONIDAE,Palaemonetes paludosus,6.1
+Crustacea,PALAEMONIDAE,Palaemonetes spp,8.7
+Crustacea,TALITRIDAE,Hyalella spp,7.2
+Other,ERPOBDELLIDAE,Erpobdella/Mooreobdella spp,8.6
+Other,ERPOBDELLIDAE,Mooreobdella tetragon,9.4
+Other,GLOSSIPHONIIDAE,Desserobdella phalera,6.6
+Other,GLOSSIPHONIIDAE,Gloiobdella elongata,9.1
+Other,GLOSSIPHONIIDAE,Helobdella triserialis,9.3
+Other,GLOSSIPHONIIDAE,Placobdella papillifera,8.2
+Other,GLOSSIPHONIIDAE,Placobdella parasitica,8.9
+Other,PLANARIIDAE,Cura foremanii,5.5
+Other,PLANARIIDAE,Dugesia tigrina,7.1
+Other,PYRALIDAE,Petrophila spp,3.6
+Other,SISYRIDAE,Climacia areolaris,6.5
+Other,TETRASTEMMATIDAE,Prostoma graecense,6.6
